@@ -1,0 +1,52 @@
+#parent-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+}
+
+.mat-card-simples {
+  max-width: 300px;
+  background-color: aliceblue;
+  margin-top: 10px;
+}
+
+.main {
+  border: 2px solid rebeccapurple;
+  border-radius: 8px;
+  width: 20vw;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-button {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  text-align: center;
+
+  font-family: revert;
+  font-size: 40px;
+  font-weight: 100;
+
+  color: rebeccapurple;
+
+  margin: 1em;
+}
+
+.card {
+  border-radius: 5px;
+
+  padding: 1em;
+  margin: 1em;
+
+  display: flex;
+
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
